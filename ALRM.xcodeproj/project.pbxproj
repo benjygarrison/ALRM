@@ -13,6 +13,7 @@
 		AF9E7EE12316667500504C8A /* ALRM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF9E7EDF2316667500504C8A /* ALRM.xcdatamodeld */; };
 		AF9E7EE32316667700504C8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9E7EE22316667700504C8A /* Assets.xcassets */; };
 		AF9E7EE62316667700504C8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9E7EE42316667700504C8A /* LaunchScreen.storyboard */; };
+		AF9E7EEE2316787A00504C8A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E7EED2316787A00504C8A /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AF9E7EE22316667700504C8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF9E7EE52316667700504C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF9E7EE72316667700504C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9E7EED2316787A00504C8A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				AF9E7ED82316667500504C8A /* AppDelegate.swift */,
 				AF9E7EDA2316667500504C8A /* ViewController.swift */,
+				AF9E7EED2316787A00504C8A /* SecondViewController.swift */,
 				AF9E7EDC2316667500504C8A /* Main.storyboard */,
 				AF9E7EE22316667700504C8A /* Assets.xcassets */,
 				AF9E7EE42316667700504C8A /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF9E7EEE2316787A00504C8A /* SecondViewController.swift in Sources */,
 				AF9E7EDB2316667500504C8A /* ViewController.swift in Sources */,
 				AF9E7ED92316667500504C8A /* AppDelegate.swift in Sources */,
 				AF9E7EE12316667500504C8A /* ALRM.xcdatamodeld in Sources */,
