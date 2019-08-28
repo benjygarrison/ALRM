@@ -10,9 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var activateButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        activateButton.layer.borderColor = UIColor.white.cgColor
+        
+        activateButton.layer.borderWidth = 1.0
+        
+        activateButton.layer.cornerRadius = 100
     }
 
 
